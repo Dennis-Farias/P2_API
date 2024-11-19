@@ -1,6 +1,6 @@
 @url = http://localhost:8080
 
-@token = siSpUIzFjmmyWtI2EMxu8ZVL6PHbxAfY1dIIPIkgXMcScc4iilDWtRzHEviUVQZ9tJlGd4ltCdmBjupBYaHTLzbHZwYDGlIAUl9gBUfM5aQAGbLtC1tO6eRGTSeI68eFD89HcRj9emlqq
+@token = 
 
 ###
 GET {{url}}/colaboradores
@@ -16,7 +16,7 @@ Authorization: Bearer {{token}}
 Content-Type: application/json
 
 {
-    "nome": "Nome"
+    "nome": "Dennis"
 }
 
 ###
